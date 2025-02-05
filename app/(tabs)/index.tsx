@@ -9,6 +9,7 @@ import UsigUseEffect from "../component/UsingUseEffect";
 import ShowHideComponent from "../component/ShowHideComponent";
 import UnmountComponent from "../component/UnmountComponent";
 import ResponsiveLayout from "../component/ResponsiveLayout"
+import ButtonStyle from "../component/ButtonStyle"
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
@@ -20,8 +21,10 @@ export default function HomeScreen() {
         <ListSection />
         <UsigUseEffect />
         <ShowHideComponent />
-        <UnmountComponent />   */}
-        <ResponsiveLayout />        
+        <UnmountComponent />   
+        <ResponsiveLayout />
+        */}
+        <ButtonStyle />
       </ScrollView>
     </View>
   );
