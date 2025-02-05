@@ -7,7 +7,7 @@ const ShowHideComponent = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}>7. Show / Hide Component</Text>
-
+    
       <View style={styles.buttonContainer}>
         <Button title="Hide Component" onPress={() => setHide(true)} color="#ff6f61" />
         <Button title="Show Component" onPress={() => setHide(false)} color="#6dbf65" />

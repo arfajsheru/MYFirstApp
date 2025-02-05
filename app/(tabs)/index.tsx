@@ -8,6 +8,7 @@ import DynamicGrid from "../component/DynamicGrid";
 import UsigUseEffect from "../component/UsingUseEffect";
 import ShowHideComponent from "../component/ShowHideComponent";
 import UnmountComponent from "../component/UnmountComponent";
+import ResponsiveLayout from "../component/ResponsiveLayout"
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
@@ -19,9 +20,8 @@ export default function HomeScreen() {
         <ListSection />
         <UsigUseEffect />
         <ShowHideComponent />
-        <UnmountComponent /> */}
-
-        
+        <UnmountComponent />   */}
+        <ResponsiveLayout />        
       </ScrollView>
     </View>
   );
