@@ -1,22 +1,27 @@
 import React from "react";
-import { StyleSheet, View, ScrollView,} from "react-native";
+import { StyleSheet, View, ScrollView } from "react-native";
 import Form from "../component/Form";
 import ListFlate from "../component/ListFlate";
 import ListMap from "../component/ListMap";
-import ListSection from "../component/ListSection"
-import DynamicGrid from "../component/DynamicGrid"
-import UsigUseEffect from "../component/UsingUseEffect"
+import ListSection from "../component/ListSection";
+import DynamicGrid from "../component/DynamicGrid";
+import UsigUseEffect from "../component/UsingUseEffect";
+import ShowHideComponent from "../component/ShowHideComponent";
+import UnmountComponent from "../component/UnmountComponent";
 export default function HomeScreen() {
-
   return (
     <View style={styles.container}>
-      <ScrollView >
-        {/* <Form /> */}
-        {/* <ListFlate /> */}
-        {/* <ListMap /> */}
-        {/* <DynamicGrid /> */}
-        {/* <ListSection /> */}
+      <ScrollView>
+        {/* <Form />
+        <ListFlate />
+        <ListMap />
+        <DynamicGrid />
+        <ListSection />
         <UsigUseEffect />
+        <ShowHideComponent />
+        <UnmountComponent /> */}
+
+        
       </ScrollView>
     </View>
   );

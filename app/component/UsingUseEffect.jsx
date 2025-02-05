@@ -23,7 +23,7 @@ const UsingUseEffect = () => {
   };
 
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.titleText}>6. Life Cycle With UseEffect</Text>
 
       <View style={styles.numBox}>
@@ -45,6 +45,10 @@ const UsingUseEffect = () => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    padding: 20,
+    backgroundColor: '#f9f9f9', // light background for the container
+  },
   titleText: {
     fontSize: 24,
     fontWeight: "bold",
