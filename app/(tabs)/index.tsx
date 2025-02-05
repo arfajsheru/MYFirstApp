@@ -10,6 +10,7 @@ import ShowHideComponent from "../component/ShowHideComponent";
 import UnmountComponent from "../component/UnmountComponent";
 import ResponsiveLayout from "../component/ResponsiveLayout"
 import ButtonStyle from "../component/ButtonStyle"
+import RadioButton from "../component/RadioButton"
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
@@ -23,8 +24,9 @@ export default function HomeScreen() {
         <ShowHideComponent />
         <UnmountComponent />   
         <ResponsiveLayout />
-        */}
         <ButtonStyle />
+        */}
+        <RadioButton />
       </ScrollView>
     </View>
   );
